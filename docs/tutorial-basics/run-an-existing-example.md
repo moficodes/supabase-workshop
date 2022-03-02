@@ -48,9 +48,11 @@ Alternatively, you can use the `sql editor` to create the table with following s
    ```
 8. This will start the project at port `3000`. 
    ![Realtime Chat](/img/demo-app.png)
-9. Right now the application is working but it is not real time. You can only see the new message by refreshing the page. This is because by default realtime is disabled for better performance and security. To enable realtime
+
+## Making it realtime
+1. Right now the application is working but it is not real time. You can only see the new message by refreshing the page. This is because by default realtime is disabled for better performance and security. To enable realtime
    1.  Go to Database > Replication in the Supabase Studio. 
    2.  Click on Table under source at the right side of the screen.
     ![enable realtime](/img/enable-realtime.png)
    3. Toggle the table you want to enable realtime for. In this case we enable `messages`. 
-10. Now if we refresh the page and send a new message we should see them show up realtime. 
+2. Now if we refresh the page and send a new message we should see them show up realtime. 
