@@ -48,6 +48,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            href: 'https://github.com/moficodes/supabase-demo',
+            position: 'right',
+            label: 'GitHub',
+            'aria-label': 'GitHub repository',
           }
         ],
       },
@@ -86,7 +92,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
+        copyright: `Copyright ©moficodes ${new Date().getFullYear()} Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
